@@ -29,7 +29,7 @@ setup(
         "soundfile",
         "librosa",
         "numpy",
-        "fairseq"
+        "fairseq==0.12.2"
     ],
     include_package_data=True,
     extras_require={"all": [
