@@ -25,11 +25,11 @@ setup(
         "faiss-cpu==1.7.3",
         "torchcrepe==0.0.20",
         "ffmpeg-python>=0.2.0",
-        "fairseq==0.12.2",
         "typeguard==4.2.0",
         "soundfile",
         "librosa",
         "numpy",
+        "fairseq"
     ],
     include_package_data=True,
     extras_require={"all": [
